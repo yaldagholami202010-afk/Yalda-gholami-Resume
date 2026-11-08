@@ -1,378 +1,2089 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Yalda Gholami | AI Developer</title>
+    <meta name="description"
+          content="Yalda Gholami | AI Developer, Robotics Enthusiast and Web Designer">
 
-    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Yalda Gholami">
+
+    <title>Yalda Gholami | AI Developer & Robotics</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <script src="https://kit.fontawesome.com/4d7d8f2f7d.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<nav class="navbar">
 
-    <div class="logo">
+<!-- BACKGROUND -->
+
+<div class="background">
+    <div class="bg-orb bg-blue"></div>
+    <div class="bg-orb bg-pink"></div>
+    <div class="bg-orb bg-purple"></div>
+    <div class="grid-overlay"></div>
+</div>
+
+
+<!-- NAVBAR -->
+
+<header class="navbar">
+
+    <a href="#hero" class="logo">
         <span class="gradient">Yalda</span> Gholami
-    </div>
+    </a>
 
-    <ul class="nav-links">
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
+    <nav>
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-    <div class="nav-buttons">
-        <a href="https://github.com/yaldagholami202010-afk"
-           target="_blank"
-           class="github-btn">
-            <i class="fa-brands fa-github"></i>
-            GitHub
-        </a>
+    <button class="menu-toggle"
+            id="menu-toggle"
+            aria-label="Open navigation menu">
 
-        <a href="photo28268844381.jpg"
-           download="Yalda_Gholami_Resume.jpg"
-           class="resume-btn">
-            Resume
-        </a>
-    </div>
-
-    <!-- Hamburger Menu -->
-    <div class="menu-toggle" id="menu-toggle">
         <i class="fa-solid fa-bars"></i>
+
+    </button>
+
+</header>
+
+
+<!-- MOBILE MENU -->
+
+<div class="mobile-menu" id="mobile-menu">
+
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+
+</div>
+
+
+<main>
+
+
+<!-- HERO -->
+
+<section class="hero" id="hero">
+
+    <div class="hero-wrapper">
+
+        <div class="profile-column">
+
+            <div class="profile-card">
+
+                <div class="card-shine"></div>
+
+                <div class="profile-image-wrapper">
+
+                    <div class="profile-ring"></div>
+
+                    <img src="profile.jpg" alt="Yalda Gholami">
+
+                    <div class="online-badge">
+                        <span></span>
+                        Available for Opportunities
+                    </div>
+
+                </div>
+
+                <h2>Yalda Gholami</h2>
+
+                <p class="profile-role">
+                    AI Developer
+                    <span>•</span>
+                    Robotics
+                    <span>•</span>
+                    Web Designer
+                </p>
+
+                <div class="profile-divider"></div>
+
+                <div class="profile-details">
+
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Tehran, Iran</span>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-brain"></i>
+                        <span>Artificial Intelligence</span>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-robot"></i>
+                        <span>Robotics & Engineering</span>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <span>Software Development</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-content">
+
+            <div class="hero-tag">
+                <span class="pulse"></span>
+                AI DEVELOPER · ROBOTICS · WEB DESIGNER
+            </div>
+
+            <h1>
+                Building
+                <span class="gradient">Intelligent</span>
+                Technologies
+            </h1>
+
+            <p class="hero-text">
+
+                AI Developer, Robotics Enthusiast and Web Designer
+                with 2 years of programming experience.
+
+                Focused on Artificial Intelligence, Deep Learning,
+                Computer Vision, Robotics and innovative software
+                development.
+
+            </p>
+
+            <div class="hero-actions">
+
+                <a href="#projects" class="primary-button">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    Explore Projects
+                </a>
+
+            </div>
+
+            <div class="stats-row">
+
+                <div class="stat-box">
+                    <strong>2+</strong>
+                    <span>Years of Programming</span>
+                </div>
+
+                <div class="stat-box">
+                    <strong>30+</strong>
+                    <span>Projects & Experiments</span>
+                </div>
+
+                <div class="stat-box">
+                    <strong>Silver</strong>
+                    <span>Turkey · 2026</span>
+                </div>
+
+            </div>
+
+            <div class="floating-tech tech-python">
+                <i class="fa-brands fa-python"></i>
+                Python
+            </div>
+
+            <div class="floating-tech tech-ai">
+                <i class="fa-solid fa-brain"></i>
+                AI
+            </div>
+
+            <div class="floating-tech tech-code">
+                <i class="fa-solid fa-robot"></i>
+                Robotics
+            </div>
+
+        </div>
+
     </div>
-
-</nav>
-
-<div class="background"></div>
-
-
-
-<section class="hero">
-    
-
-<div class="glass">
-
-<div class="left">
-
-<div class="photo">
-
-<img src="profile.jpg">
-
-<div class="glow"></div>
-
-</div>
-
-
-<h2>Yalda Gholami</h2>
-
-<p class="job">
-
-AI & Web Designer
-
-</p>
-
-<div class="buttons">
-
-    <a href="photo28268844381.jpg"
-       download="Yalda_Gholami_Resume.jpg">
-        <i class="fa-solid fa-download"></i>
-        Download Resume
-    </a>
-
-    <a href="#projects">
-        <i class="fa-solid fa-folder-open"></i>
-        View Projects
-    </a>
-
-</div>
-
-</div> <!-- left -->
-
-<div class="right">
-
-<h1>
-
-AI programmer and web designer
-
-</h1>
-
-<p>
-
-AI Developer & Web Designer passionate about building intelligent software and modern web experiences.
-
-Quick learner with strong problem-solving skills and a continuous desire to learn, improve, and develop innovative AI-powered solutions.
-
-</p>
-
-<div class="stats">
-
-<div>
-
-<h3>1.5+</h3>
-
-<span>Years Learning</span>
-
-</div>
-
-<div>
-
-<h3>2026</h3>
-
-<span>Silver Medal</span>
-
-</div>
-
-<div>
-
-<h3>30+</h3>
-
-<span>Projects</span>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
 
 </section>
-<section class="resume">
 
-    <div class="resume-container">
 
-        <div class="resume-left">
 
+<!-- ABOUT -->
+
+<section class="section" id="about">
+
+    <div class="section-header">
+
+        <div class="section-number">01</div>
+
+        <div>
+            <span>PROFILE</span>
             <h2>About Me</h2>
+        </div>
 
-           <p>
+    </div>
 
-I'm a 15-year-old AI Developer and Web Designer from Iran who enjoys turning ideas into intelligent software and modern web experiences.
 
-I'm a fast learner, passionate about Artificial Intelligence, and always eager to improve my skills by building real-world projects and exploring new technologies.
+    <div class="about-layout">
 
-</p>
+        <div class="about-content">
 
-            <div class="line"></div>
+            <h3>
+                Turning ideas into
+                <span class="gradient">
+                    intelligent innovations.
+                </span>
+            </h3>
 
-            <h2>Contact</h2>
+            <p>
+                I'm an AI Developer, Robotics Enthusiast and
+                Web Designer with 2 years of experience in
+                programming and technology.
+            </p>
 
-            <div class="info">
-                📍 Tehran, Iran
-            </div>
+            <p>
+                My work focuses on Artificial Intelligence,
+                Machine Learning, Deep Learning, Computer Vision,
+                Robotics and Software Development.
+            </p>
 
-            <div class="info">
-                📧 yaldagholami202010@gmail.com
-            </div>
+            <p>
+                I enjoy transforming ideas into practical
+                technological solutions, developing intelligent
+                systems and exploring the connection between
+                software, AI and robotics.
+            </p>
 
-            <div class="info">
-                💻 github.com/yaldagholami202010-afk
-            </div>
+            <p>
+                Throughout my learning journey, I have developed
+                various projects, including AI chatbots,
+                smart advertising systems, intelligent library
+                platforms, face recognition systems and
+                medical prediction models.
+            </p>
 
-            <div class="info">
-                💼 linkedin.com/in/yalda-gholami-51962041b
-            </div>
+            <p>
+                I achieved a Silver Medal in an international
+                competition in Turkey in 2026 and have earned
+                specialized certificates in Artificial Intelligence,
+                programming and Web Development.
+            </p>
 
-            <div class="line"></div>
 
-            <h2>Languages</h2>
+            <div class="about-features">
 
-            <div class="skill">
+                <div class="feature">
 
-                <span>Persian</span>
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
 
-                <div class="bar">
-                    <div class="fill" style="width:100%"></div>
+                    <div>
+                        <strong>Artificial Intelligence</strong>
+                        <span>Machine Learning & Deep Learning</span>
+                    </div>
+
                 </div>
 
-            </div>
 
-            <div class="skill">
+                <div class="feature">
 
-                <span>English</span>
+                    <div class="feature-icon pink">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
 
-                <div class="bar">
-                    <div class="fill" style="width:75%"></div>
+                    <div>
+                        <strong>Robotics</strong>
+                        <span>Robotics & Intelligent Systems</span>
+                    </div>
+
+                </div>
+
+
+                <div class="feature">
+
+                    <div class="feature-icon purple">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+
+                    <div>
+                        <strong>Web Development</strong>
+                        <span>Modern Responsive Applications</span>
+                    </div>
+
+                </div>
+
+
+                <div class="feature">
+
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-lightbulb"></i>
+                    </div>
+
+                    <div>
+                        <strong>Innovation</strong>
+                        <span>Creative Technology Solutions</span>
+                    </div>
+
                 </div>
 
             </div>
 
         </div>
 
-        <div class="resume-right">
 
-            <h2>Technical Skills</h2>
+        <div class="about-visual">
 
-            <div class="skill">
+            <div class="about-glow"></div>
 
-                <span>Python</span>
+            <div class="about-card">
 
-                <div class="bar">
-                    <div class="fill" style="width:95%"></div>
+                <div class="about-card-top">
+                    <span>YALDA AI</span>
+                    <span class="live">● ONLINE</span>
                 </div>
 
-            </div>
-
-            <div class="skill">
-
-                <span>Deep Learning</span>
-
-                <div class="bar">
-                    <div class="fill" style="width:90%"></div>
+                <div class="ai-symbol">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
                 </div>
 
-            </div>
+                <h3>Think. Build. Innovate.</h3>
 
-            <div class="skill">
-
-                <span>TensorFlow</span>
-
-                <div class="bar">
-                    <div class="fill" style="width:85%"></div>
-                </div>
-
-            </div>
-
-            <div class="skill">
-
-                <span>OpenCV</span>
-
-                <div class="bar">
-                    <div class="fill" style="width:85%"></div>
-                </div>
-
-            </div>
-
-            <div class="skill">
-
-                <span>Flask</span>
-
-                <div class="bar">
-                    <div class="fill" style="width:80%"></div>
-                </div>
-
-            </div>
-
-            <div class="skill">
-
-                <span>Django</span>
-
-                <div class="bar">
-                    <div class="fill" style="width:80%"></div>
-                </div>
+                <p>
+                    Artificial Intelligence
+                    × Robotics
+                    × Software
+                    × Creativity
+                </p>
 
             </div>
 
         </div>
 
     </div>
-    <section id="projects" class="projects">
-<section id="projects" class="projects">
 
-    <h2 class="section-title">Featured Projects</h2>
+</section>
 
-    <div class="ai-grid">
 
-        <div class="ai-card">
-            <div class="ai-icon">🧠</div>
+
+<!-- SKILLS -->
+
+<section class="section" id="skills">
+
+    <div class="section-header">
+
+        <div class="section-number">02</div>
+
+        <div>
+            <span>EXPERTISE</span>
+            <h2>Technical Skills</h2>
+        </div>
+
+    </div>
+
+
+    <div class="skills-grid">
+
+        <div class="skills-card">
+
+            <div class="skills-title">
+
+                <div class="skills-icon">
+                    <i class="fa-solid fa-brain"></i>
+                </div>
+
+                <div>
+                    <h3>Artificial Intelligence</h3>
+                    <p>AI & Machine Learning</p>
+                </div>
+
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>Python</span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>Machine Learning</span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>Deep Learning</span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>TensorFlow</span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>Computer Vision</span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>OpenCV</span>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="skills-card">
+
+            <div class="skills-title">
+
+                <div class="skills-icon purple">
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+
+                <div>
+                    <h3>Robotics & Engineering</h3>
+                    <p>Robotics & Intelligent Systems</p>
+                </div>
+
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>Robotics</span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>Robotics Programming</span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>AI Integration</span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>Computer Vision</span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>Intelligent Systems</span>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="skills-card">
+
+            <div class="skills-title">
+
+                <div class="skills-icon pink">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <div>
+                    <h3>Web Development</h3>
+                    <p>Frontend & Backend</p>
+                </div>
+
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>HTML</span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>CSS</span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>JavaScript</span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>Flask</span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>Django</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="technology-list">
+
+        <span>Python</span>
+        <span>TensorFlow</span>
+        <span>Deep Learning</span>
+        <span>Machine Learning</span>
+        <span>OpenCV</span>
+        <span>YOLO</span>
+        <span>Computer Vision</span>
+        <span>Robotics</span>
+        <span>NumPy</span>
+        <span>Pandas</span>
+        <span>Flask</span>
+        <span>Django</span>
+        <span>JavaScript</span>
+        <span>HTML</span>
+        <span>CSS</span>
+
+    </div>
+
+</section>
+
+
+
+<!-- PROJECTS -->
+
+<section class="section" id="projects">
+
+    <div class="section-header">
+
+        <div class="section-number">03</div>
+
+        <div>
+            <span>SELECTED WORK</span>
+            <h2>Featured Projects</h2>
+        </div>
+
+    </div>
+
+
+    <div class="projects-grid">
+
+        <article class="project-card">
+
+            <div class="project-header">
+                <div class="project-icon">
+                    <i class="fa-solid fa-panorama"></i>
+                </div>
+                <span>01</span>
+            </div>
+
+            <h3>Smart Billboard</h3>
+
+            <p>
+                An intelligent advertising system using
+                Computer Vision and AI to analyze audience
+                interactions and support data-driven
+                advertising decisions.
+            </p>
+
+            <div class="project-tags">
+                <span>Python</span>
+                <span>YOLO</span>
+                <span>Computer Vision</span>
+                <span>AI</span>
+            </div>
+
+        </article>
+
+
+        <article class="project-card">
+
+            <div class="project-header">
+                <div class="project-icon pink">
+                    <i class="fa-solid fa-comments"></i>
+                </div>
+                <span>02</span>
+            </div>
+
+            <h3>AI Chatbots</h3>
+
+            <p>
+                Development of chatbot applications designed
+                to interact with users and provide automated
+                responses using AI technologies.
+            </p>
+
+            <div class="project-tags">
+                <span>Python</span>
+                <span>AI</span>
+                <span>NLP</span>
+            </div>
+
+        </article>
+
+
+        <article class="project-card">
+
+            <div class="project-header">
+                <div class="project-icon purple">
+                    <i class="fa-solid fa-book-open"></i>
+                </div>
+                <span>03</span>
+            </div>
 
             <h3>Smart Recommendation Library</h3>
 
             <p>
-                Intelligent recommendation system powered by Artificial Intelligence.
+                An intelligent recommendation system
+                that analyzes content and helps users
+                discover relevant books and digital resources.
             </p>
 
-            <div class="chips">
+            <div class="project-tags">
                 <span>Python</span>
                 <span>Pandas</span>
-                <span>AI</span>
+                <span>Machine Learning</span>
             </div>
 
-           
-        </div>
+        </article>
 
-        <div class="ai-card">
-            <div class="ai-icon">👁️</div>
+
+        <article class="project-card">
+
+            <div class="project-header">
+                <div class="project-icon pink">
+                    <i class="fa-solid fa-eye"></i>
+                </div>
+                <span>04</span>
+            </div>
 
             <h3>Face Recognition AI</h3>
 
             <p>
-                Real-time face recognition using TensorFlow and OpenCV.
+                A Computer Vision project focused on
+                face detection and recognition using
+                image processing and Deep Learning techniques.
             </p>
 
-            <div class="chips">
+            <div class="project-tags">
                 <span>Python</span>
                 <span>OpenCV</span>
                 <span>TensorFlow</span>
             </div>
 
-     
-        </div>
+        </article>
 
-        <div class="ai-card">
-            <div class="ai-icon">🩺</div>
+
+        <article class="project-card">
+
+            <div class="project-header">
+                <div class="project-icon purple">
+                    <i class="fa-solid fa-microscope"></i>
+                </div>
+                <span>05</span>
+            </div>
 
             <h3>Breast Cancer Detection</h3>
 
             <p>
-                Deep Learning model for early breast cancer diagnosis.
+                A Deep Learning project exploring
+                medical dataset analysis and classification
+                for breast cancer research.
             </p>
 
-            <div class="chips">
+            <div class="project-tags">
                 <span>Python</span>
                 <span>Deep Learning</span>
                 <span>TensorFlow</span>
             </div>
 
-            
-        </div>
+        </article>
 
-        <div class="ai-card">
-            <div class="ai-icon">❤️</div>
+
+        <article class="project-card">
+
+            <div class="project-header">
+                <div class="project-icon">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                </div>
+                <span>06</span>
+            </div>
 
             <h3>Diabetes Prediction</h3>
 
             <p>
-                AI model trained on medical datasets for diabetes prediction.
+                A Machine Learning model developed
+                to analyze medical datasets and explore
+                diabetes prediction.
             </p>
 
-            <div class="chips">
+            <div class="project-tags">
                 <span>Machine Learning</span>
                 <span>Python</span>
                 <span>NumPy</span>
             </div>
 
-          
+        </article>
+
+
+        <article class="project-card">
+
+            <div class="project-header">
+                <div class="project-icon pink">
+                    <i class="fa-solid fa-network-wired"></i>
+                </div>
+                <span>07</span>
+            </div>
+
+            <h3>Deep Learning & Image Processing</h3>
+
+            <p>
+                Practical experiments with neural networks,
+                image processing, model training and
+                computer vision applications.
+            </p>
+
+            <div class="project-tags">
+                <span>TensorFlow</span>
+                <span>Python</span>
+                <span>Deep Learning</span>
+            </div>
+
+        </article>
+
+
+        <article class="project-card">
+
+            <div class="project-header">
+                <div class="project-icon purple">
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+                <span>08</span>
+            </div>
+
+            <h3>Robotics Projects</h3>
+
+            <p>
+                Practical work and exploration in robotics,
+                programming and the integration of
+                intelligent technologies into robotic systems.
+            </p>
+
+            <div class="project-tags">
+                <span>Robotics</span>
+                <span>Programming</span>
+                <span>AI</span>
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+
+<!-- EXPERIENCE -->
+
+<section class="section" id="journey">
+
+    <div class="section-header">
+
+        <div class="section-number">04</div>
+
+        <div>
+            <span>JOURNEY</span>
+            <h2>Experience & Learning</h2>
         </div>
 
-        
-          
+    </div>
+
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+
+            <div class="timeline-marker"></div>
+
+            <div class="timeline-content">
+                <span>2026</span>
+
+                <h3>AI & Robotics Development</h3>
+
+                <p>
+                    Continuing practical work in Artificial
+                    Intelligence, Robotics, Deep Learning
+                    and intelligent software development.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-marker"></div>
+
+            <div class="timeline-content">
+                <span>2025 — 2026</span>
+
+                <h3>Programming & Technology</h3>
+
+                <p>
+                    Approximately two years of programming
+                    experience, working with Python,
+                    Artificial Intelligence, Web Development
+                    and practical projects.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-marker"></div>
+
+            <div class="timeline-content">
+                <span>2026</span>
+
+                <h3>International Achievement</h3>
+
+                <p>
+                    Awarded a Silver Medal in a competition
+                    in Turkey.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-marker"></div>
+
+            <div class="timeline-content">
+                <span>Education & Training</span>
+
+                <h3>Specialized Technical Certifications</h3>
+
+                <p>
+                    Specialized training and certificates
+                    in Artificial Intelligence, Python
+                    programming and Web Development.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 
 
 
+<!-- ACHIEVEMENTS -->
 
-</div>
+<section class="section" id="achievements">
 
-</div>
+    <div class="section-header">
+
+        <div class="section-number">05</div>
+
+        <div>
+            <span>ACHIEVEMENTS</span>
+            <h2>Certificates & Awards</h2>
+        </div>
+
+    </div>
 
 
+    <div class="projects-grid">
+
+        <article class="project-card">
+
+            <div class="project-icon">
+                <i class="fa-solid fa-medal"></i>
+            </div>
+
+            <h3>International Silver Medal</h3>
+
+            <p>
+                Silver Medal achievement in a competition
+                in Turkey, 2026.
+            </p>
+
+        </article>
+
+
+        <article class="project-card">
+
+            <div class="project-icon pink">
+                <i class="fa-solid fa-certificate"></i>
+            </div>
+
+            <h3>Artificial Intelligence Certificates</h3>
+
+            <p>
+                Specialized certificates and training
+                in Artificial Intelligence, Python,
+                Machine Learning and related technologies.
+            </p>
+
+        </article>
+
+
+        <article class="project-card">
+
+            <div class="project-icon purple">
+                <i class="fa-solid fa-code"></i>
+            </div>
+
+            <h3>Web Development Certificates</h3>
+
+            <p>
+                Specialized training and certifications
+                in programming and modern Web Development.
+            </p>
+
+        </article>
+
+    </div>
 
 </section>
+
+
+
+<!-- CONTACT -->
+
+<section class="section contact" id="contact">
+
+    <div class="contact-box">
+
+        <div class="contact-content">
+
+            <span>LET'S CONNECT</span>
+
+            <h2>
+                Let's build something
+                <span class="gradient">intelligent.</span>
+            </h2>
+
+            <p>
+                Interested in Artificial Intelligence,
+                Robotics, software development,
+                innovative projects or technology?
+
+                I'm open to learning, collaboration
+                and new opportunities.
+            </p>
+
+        </div>
+
+
+        <div class="contact-links">
+
+            <a href="mailto:yaldagholami202010@gmail.com">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <div>
+                    <small>EMAIL</small>
+                    <strong>yaldagholami202010@gmail.com</strong>
+                </div>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="footer-logo">
+        <span class="gradient">Yalda</span>
+        Gholami
+    </div>
+
+    <p>AI Developer · Robotics · Web Designer</p>
+
+    <span>© 2026 Yalda Gholami</span>
+
+</footer>
+
+
+
+<!-- YALDA AI ASSISTANT -->
+
+<div class="ai-assistant">
+
+    <button class="ai-floating-btn"
+            id="aiOpenBtn"
+            aria-label="Open Yalda AI">
+
+        <div class="ai-ring ring-one"></div>
+        <div class="ai-ring ring-two"></div>
+
+        <div class="ai-floating-icon">
+            <i class="fa-solid fa-robot"></i>
+        </div>
+
+        <span class="ai-online"></span>
+
+    </button>
+
+
+    <div class="ai-chat-window" id="aiChatWindow" dir="rtl">
+
+        <!-- HEADER -->
+
+        <div class="ai-chat-header">
+
+            <div class="ai-header-profile">
+
+                <div class="ai-avatar">
+                    <i class="fa-solid fa-robot"></i>
+                    <span></span>
+                </div>
+
+                <div>
+                    <strong>Yalda AI</strong>
+
+                    <small>
+                        <span class="online-dot"></span>
+                        دستیار هوشمند یلدا
+                    </small>
+                </div>
+
+            </div>
+
+
+            <div class="ai-header-buttons">
+
+                <button id="aiClearBtn"
+                        title="شروع مجدد"
+                        aria-label="Restart">
+
+                    <i class="fa-solid fa-rotate-right"></i>
+
+                </button>
+
+                <button id="aiCloseBtn"
+                        title="بستن"
+                        aria-label="Close">
+
+                    <i class="fa-solid fa-xmark"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- CHAT BODY -->
+
+        <div class="ai-chat-body" id="aiChatBody">
+
+            <div class="ai-welcome">
+
+                <div class="welcome-icon">
+                    <i class="fa-solid fa-sparkles"></i>
+                </div>
+
+                <h2>درود! به Yalda AI خوش آمدید</h2>
+
+                <p>
+                    من دستیار هوشمند معرفی یلدا غلامی هستم.
+                    می‌توانم درباره سوابق علمی، مهارت‌ها،
+                    پروژه‌ها، افتخارات و فعالیت‌های ایشان
+                    اطلاعات ارائه کنم.
+
+                    <br><br>
+
+                    لطفاً سؤال خود را مطرح بفرمایید.
+                </p>
+
+            </div>
+
+
+            <div class="ai-suggestions">
+
+                <button data-question="درباره یلدا غلامی توضیح بده">
+                    <span class="suggestion-icon">
+                        <i class="fa-solid fa-user"></i>
+                    </span>
+                    <span>معرفی یلدا</span>
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+
+                <button data-question="مهارت‌های تخصصی یلدا چیست؟">
+                    <span class="suggestion-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </span>
+                    <span>مهارت‌های تخصصی</span>
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+
+                <button data-question="درباره پروژه‌های یلدا توضیح بده">
+                    <span class="suggestion-icon">
+                        <i class="fa-solid fa-folder-open"></i>
+                    </span>
+                    <span>پروژه‌ها</span>
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+
+                <button data-question="افتخارات و مدارک یلدا چیست؟">
+                    <span class="suggestion-icon">
+                        <i class="fa-solid fa-medal"></i>
+                    </span>
+                    <span>افتخارات و مدارک</span>
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+
+                <button data-question="سابقه فعالیت یلدا در رباتیک چقدر است؟">
+                    <span class="suggestion-icon">
+                        <i class="fa-solid fa-robot"></i>
+                    </span>
+                    <span>فعالیت در رباتیک</span>
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- INPUT -->
+
+        <div class="ai-input-area">
+
+            <div class="ai-input">
+
+                <input id="aiInput"
+                       type="text"
+                       placeholder="سؤال خود را درباره یلدا بپرسید..."
+                       autocomplete="off"
+                       dir="rtl">
+
+                <button id="aiSendBtn" aria-label="Send">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+
+            </div>
+
+            <div class="ai-powered">
+                <span></span>
+                Powered by Yalda AI
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- EXTERNAL JAVASCRIPT -->
 
 <script src="script.js"></script>
 
-</body>
 
+
+<!-- MOBILE MENU -->
+
+<script>
+
+const menuToggle = document.getElementById("menu-toggle");
+const mobileMenu = document.getElementById("mobile-menu");
+
+if (menuToggle && mobileMenu) {
+
+    menuToggle.addEventListener("click", () => {
+        mobileMenu.classList.toggle("active");
+    });
+
+    mobileMenu.querySelectorAll("a").forEach(link => {
+
+        link.addEventListener("click", () => {
+            mobileMenu.classList.remove("active");
+        });
+
+    });
+
+}
+
+</script>
+
+
+
+<!-- YALDA AI JAVASCRIPT -->
+
+<script>
+
+// ==========================================
+// YALDA AI - PROFILE KNOWLEDGE
+// ==========================================
+
+const yaldaProfile = {
+
+    name: "یلدا غلامی",
+    age: 16,
+
+    experience: "حدود دو سال فعالیت در برنامه‌نویسی و فناوری",
+
+    projects: "بیش از ۳۰ پروژه",
+
+    mentors: [
+        "استاد تجن‌جاری",
+        "استاد اصغری"
+    ],
+
+    mainField: "هوش مصنوعی",
+
+    roboticsExperience: "حدود چهار ماه",
+
+    award: "مدال نقره در رقابتی در کشور ترکیه در سال ۲۰۲۶",
+
+    certificates: [
+        "هوش مصنوعی",
+        "برنامه‌نویسی",
+        "توسعه وب"
+    ]
+
+};
+
+
+// ==========================================
+// WELCOME MESSAGE
+// ==========================================
+
+const welcomeHTML = `
+
+    <div class="ai-welcome">
+
+        <div class="welcome-icon">
+            <i class="fa-solid fa-sparkles"></i>
+        </div>
+
+        <h2>درود! به Yalda AI خوش آمدید</h2>
+
+        <p>
+            من دستیار هوشمند معرفی یلدا غلامی هستم.
+            می‌توانم درباره سوابق علمی، مهارت‌ها،
+            پروژه‌ها، افتخارات و فعالیت‌های ایشان
+            اطلاعات ارائه کنم.
+
+            <br><br>
+
+            لطفاً سؤال خود را مطرح بفرمایید.
+        </p>
+
+    </div>
+
+    <div class="ai-suggestions">
+
+        <button data-question="درباره یلدا غلامی توضیح بده">
+            <span class="suggestion-icon">
+                <i class="fa-solid fa-user"></i>
+            </span>
+            <span>معرفی یلدا</span>
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <button data-question="مهارت‌های تخصصی یلدا چیست؟">
+            <span class="suggestion-icon">
+                <i class="fa-solid fa-code"></i>
+            </span>
+            <span>مهارت‌های تخصصی</span>
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <button data-question="درباره پروژه‌های یلدا توضیح بده">
+            <span class="suggestion-icon">
+                <i class="fa-solid fa-folder-open"></i>
+            </span>
+            <span>پروژه‌ها</span>
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <button data-question="افتخارات و مدارک یلدا چیست؟">
+            <span class="suggestion-icon">
+                <i class="fa-solid fa-medal"></i>
+            </span>
+            <span>افتخارات و مدارک</span>
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <button data-question="سابقه فعالیت یلدا در رباتیک چقدر است؟">
+            <span class="suggestion-icon">
+                <i class="fa-solid fa-robot"></i>
+            </span>
+            <span>فعالیت در رباتیک</span>
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+    </div>
+
+`;
+
+
+// ==========================================
+// OPEN AND CLOSE CHAT
+// ==========================================
+
+aiOpenBtn.addEventListener("click", () => {
+
+    aiChatWindow.classList.add("active");
+
+    aiInput.focus();
+
+});
+
+aiCloseBtn.addEventListener("click", () => {
+
+    aiChatWindow.classList.remove("active");
+
+});
+
+
+// ==========================================
+// ADD USER MESSAGE
+// ==========================================
+
+function addUserMessage(text) {
+
+    const message = document.createElement("div");
+
+    message.className = "user-message";
+    message.dir = "rtl";
+
+    const content = document.createElement("span");
+
+    content.textContent = text;
+
+    message.appendChild(content);
+
+    aiChatBody.appendChild(message);
+
+    aiChatBody.scrollTop = aiChatBody.scrollHeight;
+
+}
+
+
+// ==========================================
+// ADD AI MESSAGE
+// ==========================================
+
+function addAIMessage(text) {
+
+    const reply = document.createElement("div");
+
+    reply.className = "ai-message";
+    reply.dir = "rtl";
+
+    const icon = document.createElement("div");
+
+    icon.className = "mini-ai-icon";
+
+    icon.innerHTML = '<i class="fa-solid fa-robot"></i>';
+
+    const content = document.createElement("div");
+
+    content.className = "ai-message-content";
+
+    content.textContent = text;
+
+    reply.appendChild(icon);
+    reply.appendChild(content);
+
+    aiChatBody.appendChild(reply);
+
+    aiChatBody.scrollTop = aiChatBody.scrollHeight;
+
+}
+
+
+// ==========================================
+// TYPING INDICATOR
+// ==========================================
+
+function showTyping() {
+
+    const typing = document.createElement("div");
+
+    typing.className = "ai-message ai-typing";
+
+    typing.id = "aiTyping";
+
+    typing.dir = "rtl";
+
+    const icon = document.createElement("div");
+
+    icon.className = "mini-ai-icon";
+
+    icon.innerHTML = '<i class="fa-solid fa-robot"></i>';
+
+    const content = document.createElement("div");
+
+    content.className = "ai-message-content";
+
+    content.textContent = "در حال آماده‌سازی پاسخ...";
+
+    typing.appendChild(icon);
+    typing.appendChild(content);
+
+    aiChatBody.appendChild(typing);
+
+    aiChatBody.scrollTop = aiChatBody.scrollHeight;
+
+}
+
+
+function removeTyping() {
+
+    const typing = document.getElementById("aiTyping");
+
+    if (typing) {
+        typing.remove();
+    }
+
+}
+
+
+// ==========================================
+// TEXT NORMALIZATION
+// ==========================================
+
+function normalizeText(text) {
+
+    return text
+        .toLowerCase()
+        .replace(/[؟?!.,،؛:]/g, "")
+        .replace(/ي/g, "ی")
+        .replace(/ك/g, "ک")
+        .replace(/\s+/g, " ")
+        .trim();
+
+}
+
+
+// ==========================================
+// AI RESPONSE ENGINE
+// ==========================================
+
+function getAIResponse(message) {
+
+    const q = normalizeText(message);
+
+    const containsAny = words =>
+        words.some(word => q.includes(normalizeText(word)));
+
+
+    // GREETING
+
+    if (containsAny([
+        "سلام",
+        "درود",
+        "وقت بخیر",
+        "صبح بخیر",
+        "عصر بخیر",
+        "hello",
+        "hi"
+    ])) {
+
+        return `
+درود و وقت شما بخیر.
+
+به دستیار هوشمند یلدا غلامی خوش آمدید.
+
+من می‌توانم اطلاعاتی درباره سوابق علمی،
+مهارت‌های تخصصی، پروژه‌ها، افتخارات و فعالیت‌های
+فناورانه ایشان در اختیار شما قرار دهم.
+
+باعث افتخار است که بتوانم راهنمای شما باشم.
+`;
+
+    }
+
+
+    // PROJECTS
+
+    if (containsAny([
+        "پروژه",
+        "نمونه کار",
+        "چه کارهایی",
+        "کارهای انجام شده",
+        "project",
+        "portfolio"
+    ])) {
+
+        return `
+یلدا غلامی تاکنون در بیش از ۳۰ پروژه و فعالیت عملی
+در زمینه برنامه‌نویسی و فناوری مشارکت داشته‌اند.
+
+برخی از پروژه‌های شاخص ایشان عبارت‌اند از:
+
+۱. بنر هوشمند (Smart Billboard):
+یک سامانه تبلیغاتی هوشمند با استفاده از بینایی ماشین
+و فناوری YOLO برای تحلیل مخاطبان و پشتیبانی از
+تصمیم‌گیری‌های تبلیغاتی.
+
+۲. کتابخانه هوشمند:
+سیستم پیشنهاددهنده کتاب با قابلیت تحلیل اطلاعات
+و معرفی منابع مرتبط به کاربران.
+
+۳. تشخیص و شناسایی چهره:
+پروژه‌ای در حوزه Computer Vision و پردازش تصویر.
+
+۴. پروژه‌های هوش مصنوعی پزشکی:
+شامل تحلیل مجموعه‌داده‌های پزشکی و توسعه مدل‌های
+آزمایشی برای پیش‌بینی دیابت و طبقه‌بندی داده‌های
+مرتبط با سرطان پستان.
+
+۵. چت‌بات‌های هوشمند:
+طراحی برنامه‌های تعاملی برای پاسخ‌گویی خودکار.
+
+۶. پردازش تصویر و یادگیری عمیق:
+اجرای آزمایش‌های عملی با شبکه‌های عصبی و مدل‌های
+یادگیری عمیق.
+
+۷. پروژه‌های رباتیک:
+بررسی کاربرد برنامه‌نویسی و هوش مصنوعی در
+سیستم‌های رباتیکی.
+
+این موارد نمونه‌هایی از فعالیت‌های ایشان هستند
+و فهرست کامل پروژه‌ها را شامل نمی‌شوند.
+`;
+
+    }
+
+
+    // SKILLS
+
+    if (containsAny([
+        "مهارت",
+        "تخصص",
+        "بلد",
+        "توانایی",
+        "skills",
+        "technical"
+    ])) {
+
+        return `
+مهارت‌ها و زمینه‌های فنی یلدا غلامی در چند حوزه
+اصلی متمرکز هستند:
+
+● هوش مصنوعی:
+Artificial Intelligence، Machine Learning،
+Deep Learning و Data Analysis.
+
+● بینایی ماشین و پردازش تصویر:
+Computer Vision، OpenCV، Image Processing،
+Face Detection و Face Recognition.
+
+● برنامه‌نویسی:
+Python و JavaScript.
+
+● توسعه وب:
+HTML، CSS، Flask و Django.
+
+● ابزارها و کتابخانه‌ها:
+TensorFlow، NumPy، Pandas و YOLO.
+
+● رباتیک:
+Robotics Programming، Intelligent Systems
+و بررسی کاربرد هوش مصنوعی در رباتیک.
+
+ایشان در حال توسعه و ارتقای مستمر مهارت‌های فنی
+خود هستند.
+`;
+
+    }
+
+
+    // ARTIFICIAL INTELLIGENCE
+
+    if (containsAny([
+        "هوش مصنوعی",
+        "یادگیری ماشین",
+        "یادگیری عمیق",
+        "بینایی ماشین",
+        "machine learning",
+        "deep learning",
+        "artificial intelligence",
+        "computer vision"
+    ])) {
+
+        return `
+هوش مصنوعی حوزه اصلی تمرکز تخصصی یلدا غلامی است.
+
+زمینه‌های فعالیت و یادگیری ایشان شامل موارد زیر است:
+
+• Artificial Intelligence
+• Machine Learning
+• Deep Learning
+• Computer Vision
+• Image Processing
+• Neural Networks
+• Data Analysis
+• TensorFlow
+• Python Programming
+
+ایشان علاقه‌مند به توسعه سیستم‌های هوشمند،
+پردازش و تحلیل داده‌ها و طراحی راهکارهای کاربردی
+مبتنی بر هوش مصنوعی هستند.
+
+از اهداف ایشان، گسترش فعالیت در پروژه‌های
+پژوهشی و فناورانه و ارتقای سطح دانش تخصصی است.
+`;
+
+    }
+
+
+    // ROBOTICS
+
+    if (containsAny([
+        "رباتیک",
+        "ربات",
+        "robotics",
+        "robot"
+    ])) {
+
+        return `
+یلدا غلامی حدود چهار ماه است که فعالیت تخصصی
+خود را در حوزه رباتیک آغاز کرده‌اند.
+
+تمرکز ایشان بر آشنایی عملی با رباتیک،
+برنامه‌نویسی سیستم‌های رباتیکی و بررسی ارتباط
+هوش مصنوعی با سامانه‌های هوشمند است.
+
+یکی از زمینه‌های مورد علاقه ایشان، ترکیب
+هوش مصنوعی، بینایی ماشین و رباتیک برای
+ساخت پروژه‌های کاربردی است.
+`;
+
+    }
+
+
+    // AWARDS
+
+    if (containsAny([
+        "مدال",
+        "افتخار",
+        "ترکیه",
+        "مسابقه",
+        "جایزه",
+        "award",
+        "medal",
+        "turkey"
+    ])) {
+
+        return `
+یکی از افتخارات علمی یلدا غلامی، کسب مدال نقره
+در یک رقابت در کشور ترکیه در سال ۲۰۲۶ است.
+
+این موفقیت بخشی از سوابق علمی و رقابتی ایشان
+محسوب می‌شود و در کنار فعالیت‌های آموزشی
+و پروژه‌های عملی قرار دارد.
+`;
+
+    }
+
+
+    // CERTIFICATES
+
+    if (containsAny([
+        "مدرک",
+        "گواهی",
+        "گواهینامه",
+        "certificate",
+        "certification"
+    ])) {
+
+        return `
+یلدا غلامی دارای گواهی‌نامه‌های تخصصی در زمینه
+هوش مصنوعی، برنامه‌نویسی و توسعه وب هستند.
+
+این دوره‌ها بخشی از مسیر آموزشی و تخصصی
+ایشان در حوزه فناوری را تشکیل می‌دهند.
+
+ایشان همچنین به یادگیری مباحث پیشرفته‌تر
+مانند یادگیری ماشین، یادگیری عمیق و بینایی ماشین
+ادامه می‌دهند.
+`;
+
+    }
+
+
+    // MENTORS
+
+    if (containsAny([
+        "استاد",
+        "اساتید",
+        "مدرس",
+        "راهنما",
+        "آموزش",
+        "mentor",
+        "teacher"
+    ])) {
+
+        return `
+بخشی از مسیر آموزشی و فعالیت‌های پروژه‌محور
+یلدا غلامی با راهنمایی استاد تجن‌جاری
+و استاد اصغری دنبال شده است.
+
+ایشان از دانش، تجربیات و راهنمایی این اساتید
+در مسیر یادگیری و توسعه مهارت‌های فنی خود
+بهره برده‌اند.
+`;
+
+    }
+
+
+    // EXPERIENCE
+
+    if (containsAny([
+        "سابقه",
+        "تجربه",
+        "چند سال",
+        "فعالیت",
+        "experience",
+        "background"
+    ])) {
+
+        return `
+یلدا غلامی حدود دو سال است که در زمینه
+برنامه‌نویسی و فناوری فعالیت می‌کنند.
+
+در این مدت، تجربه‌هایی در زمینه توسعه نرم‌افزار،
+هوش مصنوعی، یادگیری ماشین، پردازش تصویر
+و توسعه وب به دست آورده‌اند.
+
+همچنین بیش از ۳۰ پروژه و فعالیت عملی
+در مسیر یادگیری و توسعه مهارت‌های خود
+انجام داده‌اند.
+`;
+
+    }
+
+
+    // EDUCATION AND AGE
+
+    if (containsAny([
+        "سن",
+        "چند سالشه",
+        "چند سال دارد",
+        "مدرسه",
+        "تحصیل",
+        "جهشی",
+        "education",
+        "age",
+        "school"
+    ])) {
+
+        return `
+یلدا غلامی ۱۶ سال دارند و مسیر تحصیلی خود را
+به‌صورت جهشی دنبال می‌کنند.
+
+در کنار مسیر آموزشی، تمرکز اصلی ایشان بر
+توسعه دانش تخصصی و مهارت‌های عملی در حوزه
+هوش مصنوعی، برنامه‌نویسی و فناوری است.
+
+ایشان تلاش می‌کنند میان یادگیری علمی،
+فعالیت‌های پروژه‌محور و توسعه توانایی‌های
+فنی خود ارتباط مؤثری برقرار کنند.
+`;
+
+    }
+
+
+    // GOALS
+
+    if (containsAny([
+        "هدف",
+        "آینده",
+        "برنامه",
+        "چشم انداز",
+        "هدف آینده",
+        "goals",
+        "future"
+    ])) {
+
+        return `
+از اهداف حرفه‌ای و علمی یلدا غلامی می‌توان
+به موارد زیر اشاره کرد:
+
+• توسعه پروژه‌های کاربردی در حوزه هوش مصنوعی
+• فعالیت در زمینه پژوهش و فناوری
+• پیشرفت در یادگیری عمیق و بینایی ماشین
+• حضور در رقابت‌ها و رویدادهای علمی بین‌المللی
+• همکاری با تیم‌ها و مجموعه‌های فناورانه
+• مشارکت در توسعه نوآوری و فناوری در ایران
+
+ایشان علاقه‌مند هستند دانش و مهارت‌های خود را
+به راهکارها و محصولات فناورانه تبدیل کنند.
+`;
+
+    }
+
+
+    // CONTACT
+
+    if (containsAny([
+        "ارتباط",
+        "تماس",
+        "همکاری",
+        "ایمیل",
+        "راه ارتباطی",
+        "contact",
+        "collaboration",
+        "email"
+    ])) {
+
+        return `
+برای ارتباط با یلدا غلامی در زمینه همکاری‌های
+علمی، آموزشی، فناورانه و پروژه‌ای می‌توانید
+از نشانی ایمیل زیر استفاده کنید:
+
+yaldagholami202010@gmail.com
+
+لطفاً موضوع درخواست خود را به‌صورت شفاف
+در پیام مطرح بفرمایید.
+`;
+
+    }
+
+
+    // INTRODUCTION
+
+    if (containsAny([
+        "یلدا",
+        "معرفی",
+        "درباره",
+        "کیه",
+        "کیست",
+        "خودش",
+        "who is",
+        "about yalda"
+    ])) {
+
+        return `
+یلدا غلامی، ۱۶ ساله، برنامه‌نویس و فعال حوزه
+فناوری با تمرکز اصلی بر هوش مصنوعی هستند.
+
+ایشان حدود دو سال سابقه فعالیت در برنامه‌نویسی
+و فناوری دارند و تاکنون در بیش از ۳۰ پروژه
+و فعالیت عملی مشارکت داشته‌اند.
+
+حوزه‌های اصلی فعالیت ایشان عبارت‌اند از:
+
+• هوش مصنوعی
+• یادگیری ماشین
+• یادگیری عمیق
+• بینایی ماشین
+• پردازش تصویر
+• توسعه وب
+• برنامه‌نویسی پایتون
+• رباتیک
+
+ایشان موفق به کسب مدال نقره در رقابتی در ترکیه
+شده‌اند و دارای گواهی‌نامه‌های تخصصی در زمینه
+هوش مصنوعی و توسعه وب هستند.
+
+بخشی از مسیر آموزشی و پروژه‌محور ایشان نیز
+با راهنمایی استاد تجن‌جاری و استاد اصغری
+دنبال شده است.
+
+هدف ایشان، توسعه توانایی‌های تخصصی و مشارکت
+در پروژه‌های نوآورانه و کاربردی است.
+`;
+
+    }
+
+
+    // THANK YOU
+
+    if (containsAny([
+        "ممنون",
+        "متشکرم",
+        "سپاس",
+        "تشکر",
+        "thank you",
+        "thanks"
+    ])) {
+
+        return `
+خواهش می‌کنم.
+
+از توجه و زمانی که برای آشنایی با فعالیت‌های
+یلدا غلامی اختصاص دادید، سپاسگزارم.
+
+در صورت داشتن پرسش دیگری، با کمال میل
+در خدمت شما هستم.
+`;
+
+    }
+
+
+    // DEFAULT RESPONSE
+
+    return `
+از پرسش شما سپاسگزارم.
+
+برای اینکه بتوانم پاسخ دقیق و مناسبی ارائه کنم،
+لطفاً سؤال خود را کمی مشخص‌تر مطرح بفرمایید.
+
+من می‌توانم درباره موضوعات زیر اطلاعات ارائه کنم:
+
+• معرفی و سوابق یلدا غلامی
+• مهارت‌ها و حوزه‌های تخصصی
+• پروژه‌های برنامه‌نویسی و هوش مصنوعی
+• یادگیری ماشین و یادگیری عمیق
+• فعالیت در حوزه رباتیک
+• مدارک و افتخارات
+• سوابق آموزشی و اهداف حرفه‌ای
+
+توجه داشته باشید که پاسخ‌ها بر اساس اطلاعات
+ثبت‌شده در این دستیار ارائه می‌شوند.
+`;
+
+}
+
+
+// ==========================================
+// SEND MESSAGE
+// ==========================================
+
+function sendMessage(text) {
+
+    const userText = text.trim();
+
+    if (!userText) return;
+
+    addUserMessage(userText);
+
+    aiInput.value = "";
+
+    showTyping();
+
+    setTimeout(() => {
+
+        removeTyping();
+
+        const response = getAIResponse(userText);
+
+        addAIMessage(response);
+
+    }, 650);
+
+}
+
+
+// ==========================================
+// SEND BUTTON
+// ==========================================
+
+aiSendBtn.addEventListener("click", () => {
+
+    sendMessage(aiInput.value);
+
+});
+
+
+// ==========================================
+// ENTER KEY
+// ==========================================
+
+aiInput.addEventListener("keydown", event => {
+
+    if (event.key === "Enter") {
+
+        sendMessage(aiInput.value);
+
+    }
+
+});
+
+
+// ==========================================
+// SUGGESTIONS
+// ==========================================
+
+aiChatBody.addEventListener("click", event => {
+
+    const button = event.target.closest(
+        ".ai-suggestions button"
+    );
+
+    if (button) {
+
+        sendMessage(button.dataset.question);
+
+    }
+
+});
+
+
+// ==========================================
+// CLEAR CHAT
+// ==========================================
+
+aiClearBtn.addEventListener("click", () => {
+
+    aiChatBody.innerHTML = welcomeHTML;
+
+    aiChatBody.scrollTop = 0;
+
+});
+
+
+// ==========================================
+// INITIALIZATION
+// ==========================================
+
+aiInput.setAttribute("dir", "rtl");
+
+aiChatWindow.setAttribute("dir", "rtl");
+
+aiChatBody.setAttribute("dir", "rtl");
+
+</script>
+
+
+</body>
 </html>
